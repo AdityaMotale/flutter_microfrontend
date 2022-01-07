@@ -34,7 +34,9 @@ class StyledTextfield extends StatelessWidget {
             color: color,
           ),
           prefixIcon: icon,
-          labelText: label,
+          label: Text(
+            label,
+          ),
         ),
       ),
     );
